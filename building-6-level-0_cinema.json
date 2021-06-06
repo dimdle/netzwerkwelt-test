@@ -48,7 +48,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/g4DgAVCmiDE"
+                 "value":"https:\/\/www.youtube-nocookie.com\/embed\/g4DgAVCmiDE"
                 }],
          "type":"tilelayer",
          "visible":true,
