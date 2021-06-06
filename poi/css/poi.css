@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'Press Start 2P';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Press Start 2P'), url('fonts/PressStart2P.woff') format('woff');
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+article {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+main {
+	flex-grow: 1;
+}
+
+header, main, footer {
+	flex-shrink: 0;
+	padding: 10px;
+}
+
+body {
+	font-family: 'Press Start 2P', monospace;
+	font-weight: normal;
+	color: #00ff00;
+	background: #000000;
+	hyphens: auto;
+}
+
+h1, h2 {
+	font-size: 48pt;
+	font-weight: normal;
+}
+
+p {
+	font-size: 24pt;
+	line-height: 48pt;
+}
+
+a {
+	color: #00ff00;
+}
+
+a:hover {
+	color: #eb7f00;
+}
+
+section {
+	display: none;
+}
+
+section:target {
+	display: block;
+}
+
+figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+figure > img {
+	width: 100%;
+}
+
+figcaption {
+	line-height: 16pt;
+}
+
+footer {
+	font-size: 16pt;
+	line-height: 32pt;
+}
+
+dl.credits {
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+dl.credits > dt {
+	grid-column-start: 1;
+}
+
+dl.credits > dd {
+	grid-column-start: 2;
+}
