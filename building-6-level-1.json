@@ -30,7 +30,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"building-6-level-0.json#start_from_floor1"
+                 "value":"building-6-level-0.json#start_floor1_right"
                 }],
          "type":"tilelayer",
          "visible":true,
