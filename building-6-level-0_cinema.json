@@ -105,7 +105,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":25,
          "x":0,
          "y":0
@@ -123,7 +123,7 @@
                  "value":"building-6-level-0.json#start_from_cinema"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":25,
          "x":0,
          "y":0
@@ -135,7 +135,7 @@
          "name":"floor_cinema",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":25,
          "x":0,
          "y":0
@@ -147,7 +147,7 @@
          "name":"indoor_walls",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":25,
          "x":0,
          "y":0
@@ -159,7 +159,7 @@
          "name":"walls_2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":25,
          "x":0,
          "y":0
